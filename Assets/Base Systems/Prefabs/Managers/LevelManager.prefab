@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20a3ffeff3a5a9b47b4dce90ac524ced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomizeAfterRotation: 1
-  Levels:
-  - {fileID: 3210734524189124999, guid: 8f2be9d31462041a2bdb434ab6e22c7e, type: 3}
-  TutorialLevels: []
+  isActiveTestLevel: 0
+  testLevel: {fileID: 0}
+  enableLevelDebugLogs: 1
+  levelsSO: {fileID: 11400000, guid: 5f8783917ac1d440aa45e482d13eaeca, type: 2}

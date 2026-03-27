@@ -59,7 +59,7 @@ namespace Base_Systems.Scripts.Utilities
 		{
 			QualitySettings.shadowDistance = distance;
 			var urp = (UniversalRenderPipelineAsset)GraphicsSettings.currentRenderPipeline;
-			urp.shadowDistance = distance;
+			// urp.shadowDistance = distance;
 		}
 		public void SetTutorialCamTexture(RenderTexture renderTexture)
 		{
